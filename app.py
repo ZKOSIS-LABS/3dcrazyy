@@ -43,4 +43,6 @@ iface = gr.Interface(
     description="Upload an image to generate and view a 3D model."
 )
 
-iface.launch()
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 7860))  # Default port or Render's provided port
+    iface.launch(server_name="0.0.0.0", server_port=port)
