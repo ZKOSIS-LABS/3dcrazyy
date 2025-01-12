@@ -48,12 +48,18 @@ iface = gr.Interface(
         }
         #logo {
             width: 100%; /* Full width */
+            position: fixed; /* Fixed position */
+            left: 0; /* Left alignment */
+            top: 0; /* Top alignment */
             height: 100px; /* Fixed height */
             background: url('/logo.png') no-repeat center center; 
             background-size: contain; /* Ensures that the logo will fit in the div */
             margin-bottom: 20px; /* Adds some space below the logo */
         }
-
+        footer {
+        display:none;
+        opacity:0;
+        }
     """
 )
 
