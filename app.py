@@ -49,7 +49,7 @@ iface = gr.Interface(
         #logo {
             width: 100%; /* Full width */
             height: 100px; /* Fixed height */
-            background: url('https://avatars.githubusercontent.com/u/194395535?s=48&v=4') no-repeat center center; 
+            background: url('/logo.png') no-repeat center center; 
             background-size: contain; /* Ensures that the logo will fit in the div */
             margin-bottom: 20px; /* Adds some space below the logo */
         }
