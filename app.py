@@ -53,39 +53,7 @@ iface = gr.Interface(
             background-size: contain; /* Ensures that the logo will fit in the div */
             margin-bottom: 20px; /* Adds some space below the logo */
         }
-        button { 
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 12px;
-        }
-        input[type='file'] {
-            border: 2px dashed #4CAF50;
-            display: block;
-            width: 80%;
-            padding: 15px;
-            margin: 10px auto;
-            box-sizing: border-box;
-        }
-        .gr-interface { /* Style the Gradio interface container */
-            border-radius: 10px;
-            border: 1px solid #333333; /* Subtle border */
-        }
-        .gr-output { /* Style for output components */
-            background-color: #333333; /* Darker background for outputs */
-            border: none;
-        }
-        .gr-input { /* Style for input components */
-            background-color: #222222; /* Dark background for inputs */
-            border: none;
-        }
+
     """
 )
 
