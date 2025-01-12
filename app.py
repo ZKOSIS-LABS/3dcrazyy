@@ -39,7 +39,7 @@ iface = gr.Interface(
     fn=generate_3d_model,
     inputs=gr.Image(type="filepath"),
     outputs=[gr.Model3D(), gr.Textbox(label="Error Message", placeholder="")],
-    title="Image to 3D Model Generator",
+    title="$ECO 3D Creator",
     description="Upload an image to generate and view a 3D model."
 )
 
